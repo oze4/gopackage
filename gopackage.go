@@ -10,6 +10,6 @@ func Typewriter(msg string) {
 }
 
 // Inc ...
-func Inc(n* int) {
+func Inc(n *int) {
 	*n++
 }
