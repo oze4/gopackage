@@ -29,3 +29,8 @@ func Typewriter(msg string) {
 func Inc(n *int) {
 	*n++
 }
+
+// ChangeName changes the name of a person
+func (p *Person) ChangeName(to string) {
+    p.First = to
+}
